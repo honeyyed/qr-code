@@ -1,7 +1,63 @@
 
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  padding-bottom: 500px;
+}
+
+p {
+  font-family: Outfit;
+  text-align: center;
+  margin: 0;
+}
+
 .attribution { 
-  font-size: 11px; text-align: center;
+  font-size: 11px; 
+  text-align: center;
  }
 .attribution a { 
   color: hsl(228, 45%, 44%); 
 }
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qr-card-container {
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 222px;
+  padding-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.black-bold-font {
+  font-weight: 700;
+  width: 180px;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.grey-small-font {
+  color: hsl(213, 12%, 70%);
+  font-size: 11px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  width: 180px;
+}
+
+
+
+
